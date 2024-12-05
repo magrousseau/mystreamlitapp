@@ -13,7 +13,7 @@ if st.button("Click 😉"):
 search_query = st.text_input("Search a gif")
 url = "https://api.giphy.com/v1/gifs/search"
 params = {
-    "api_key": st.secrets['api_key'] ,
+    "api_key": st.secrets['API_KEY'] ,
     "q": search_query,
     "limit": 10
 }
