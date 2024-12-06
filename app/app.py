@@ -10,9 +10,6 @@ This is text""")
 "# This is a header again"
 "This is text again"
 
-spell = st.secrets['spell']
-key = st.secrets.some_magic_api.key
-st.write(spell + " " + key)
 
 df = pd.DataFrame({
     'first column': list(range(1, 11)),
