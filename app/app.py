@@ -9,7 +9,8 @@ This is text""")
 
 "# This is a header again"
 "This is text again"
-
+st.secrets['spell']
+key = st.secrets.some_magic_api.key
 
 df = pd.DataFrame({
     'first column': list(range(1, 11)),

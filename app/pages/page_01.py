@@ -1,10 +1,10 @@
-# import streamlit as st
-# import requests
-# import numpy as np
+import streamlit as st
+import requests
+import numpy as np
 
-# st.set_page_config(page_title='Hello')
+st.set_page_config(page_title='Hello')
 
-# st.title('Hello, Streamlit!')
+st.title('Hello, Streamlit!')
 
 # if st.button("Click 😉"):
 #     st.image("raw_data/wagon.png")
@@ -13,7 +13,7 @@
 # search_query = st.text_input("Search a gif")
 # url = "https://api.giphy.com/v1/gifs/search"
 # params = {
-#     "api_key": st.secrets['API_KEY'] ,
+#     "api_key": "fd5ZBBwwanRUYg9XXMckjta9FEyUJlJ" ,
 #     "q": search_query,
 #     "limit": 10
 # }
